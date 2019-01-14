@@ -10,12 +10,16 @@
             <td><form:input path="name"/></td>
         </tr>
         <tr>
-            <td>cost :</td>
-            <td><form:input path="cost"/></td>
+            <td>brand and model :</td>
+            <td><form:input path="brandAndModel"/></td>
         </tr>
         <tr>
-            <td>brand :</td>
-            <td><form:input path="brand"/></td>
+            <td>release date :</td>
+            <td><form:input path="releaseDate"/></td>
+        </tr>
+        <tr>
+            <td>phone number :</td>
+            <td><form:input path="phoneNumber"/></td>
         </tr>
         <tr>
             <td></td>
