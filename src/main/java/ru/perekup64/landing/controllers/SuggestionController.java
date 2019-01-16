@@ -30,6 +30,16 @@ public class SuggestionController {
         return "about";
     }
 
+    @RequestMapping("/services")
+    public String services(){
+        return "services";
+    }
+
+    @RequestMapping("/contact")
+    public String contact(){
+        return "contact";
+    }
+
     /*It displays a form to input data, here "command" is a reserved request attribute 
      *which is used to display object data into form 
      */  
