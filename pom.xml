@@ -54,7 +54,7 @@
     
   </dependencies>
     <build>
-        <finalName>form</finalName>
+        <finalName>java</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
