@@ -211,11 +211,11 @@
             <!-- Single Facility Start -->
             <div class="col-lg-3 col-md-6">
                 <div class="single-our-facility">
-                    <h3>LIMO PARTY RENT</h3>
+                    <h3>Наши преимущества</h3>
                     <ul>
-                        <li>Parallax Everywhere</li>
-                        <li>Interactive and Fun</li>
-                        <li>Responsive and Refined</li>
+                        <li>Продажа автомобиля по максимально возможной цене, за счёт конкуренции между дилерами</li>
+                        <li>Время на проведение аукциона от 2 до 7 дней</li>
+                        <li>Работаем на бесплатной и платной основе</li>
                         <li>Color it All</li>
                         <li>Customize and Create</li>
                     </ul>
