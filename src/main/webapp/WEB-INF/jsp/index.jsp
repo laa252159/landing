@@ -132,18 +132,18 @@
             <div class="row">
                 <div class="col-lg-5">
                     <div class="book-a-car">
-                        <form:form method="post" action="save">
+                        <form:form method="post" action="save" name="suggestion">
                             <div class="pick-up-date book-item">
                                 <h4>Марка и модель:</h4>
-                                <form:input path="brandAndModel" type="text"/>
+                                <form:input path="brandAndModel" name="brandAndModel" type="text" data-message="A larger value is needed" />
                             </div>
                             <div class="pick-up-date book-item">
-                                <h4>Дата выпуска:</h4>
-                                <form:input path="releaseDate" type="text"/>
+                                <h4>Год выпуска:</h4>
+                                <form:input path="releaseDate" name="releaseDate" type="text"/>
                             </div>
                             <div class="pick-up-date book-item">
                                 <h4>Ваше имя:</h4>
-                                <form:input path="name" type="text"/>
+                                <form:input path="name" name="name" type="text"/>
                             </div>
                             <div class="pick-up-date book-item">
                                 <h4>Ваш телефон:</h4>
@@ -533,6 +533,10 @@
 <script src=<c:url value="/assets/js/jquery-migrate.min.js"/>></script>
 <!--=== Popper Min Js ===-->
 <script src=<c:url value="/assets/js/popper.min.js"/>></script>
+<!--=== Popper Min Js Validation ===-->
+<script src=<c:url value="/assets/js/jquery.validate.min.js"/>></script>
+<!--=== Form Validation ===-->
+<script src=<c:url value="/assets/js/form-validation.js"/>></script>
 <!--=== Bootstrap Min Js ===-->
 <script src=<c:url value="/assets/js/bootstrap.min.js"/>></script>
 <!--=== Gijgo Min Js ===-->
