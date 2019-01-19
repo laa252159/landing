@@ -1,5 +1,6 @@
-<%@ page contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<%@ page contentType="text/html; charset=utf-8" pageEncoding="utf-8" %>
 
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <!DOCTYPE html>
@@ -10,28 +11,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--=== Favicon ===-->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 
     <title>Cars64.ru - Выкуп авто Саратов</title>
 
     <!--=== Bootstrap CSS ===-->
-    <link href=<c:url value="/assets/css/bootstrap.min.css" /> rel="stylesheet" type="text/css">
+    <link href=
+          <c:url value="/assets/css/bootstrap.min.css"/> rel="stylesheet" type="text/css">
     <!--=== Slicknav CSS ===-->
-    <link href=<c:url value="/assets/css/plugins/slicknav.min.css" /> rel="stylesheet" type="text/css">
+    <link href=
+          <c:url value="/assets/css/plugins/slicknav.min.css"/> rel="stylesheet" type="text/css">
     <!--=== Magnific Popup CSS ===-->
-    <link href=<c:url value="/assets/css/plugins/magnific-popup.css" /> rel="stylesheet" type="text/css">
+    <link href=
+          <c:url value="/assets/css/plugins/magnific-popup.css"/> rel="stylesheet" type="text/css">
     <!--=== Owl Carousel CSS ===-->
-    <link href=<c:url value="/assets/css/plugins/owl.carousel.min.css" /> rel="stylesheet" type="text/css">
+    <link href=
+          <c:url value="/assets/css/plugins/owl.carousel.min.css"/> rel="stylesheet" type="text/css">
     <!--=== Gijgo CSS ===-->
-    <link href=<c:url value="/assets/css/plugins/gijgo.css" /> rel="stylesheet" type="text/css">
+    <link href=
+          <c:url value="/assets/css/plugins/gijgo.css"/> rel="stylesheet" type="text/css">
     <!--=== FontAwesome CSS ===-->
-    <link href=<c:url value="/assets/css/font-awesome.css" /> rel="stylesheet" type="text/css">
+    <link href=
+          <c:url value="/assets/css/font-awesome.css"/> rel="stylesheet" type="text/css">
     <!--=== Theme Reset CSS ===-->
-    <link href=<c:url value="/assets/css/reset.css" /> rel="stylesheet" type="text/css">
+    <link href=
+          <c:url value="/assets/css/reset.css"/> rel="stylesheet" type="text/css">
     <!--=== Main Style CSS ===-->
-    <link href=<c:url value="/assets/css/style.css" /> rel="stylesheet" type="text/css">
+    <link href=
+          <c:url value="/assets/css/style.css"/> rel="stylesheet" type="text/css">
     <!--=== Responsive CSS ===-->
-    <link href=<c:url value="/assets/css/responsive.css" /> rel="stylesheet" type="text/css">
+    <link href=
+          <c:url value="/assets/css/responsive.css"/> rel="stylesheet" type="text/css">
 
 
     <!--[if lt IE 9]>
@@ -46,7 +56,8 @@
 <div class="preloader">
     <div class="preloader-spinner">
         <div class="loader-content">
-            <img src=<c:url value="/assets/img/preloader1.gif"/> alt="JSOFT">
+            <img src=
+                 <c:url value="/assets/img/preloader1.gif"/> alt="JSOFT">
         </div>
     </div>
 </div>
@@ -88,7 +99,8 @@
                 <!--== Logo Start ==-->
                 <div class="col-lg-4">
                     <a href="index" class="logo">
-                        <img src=<c:url value="/assets/img/logo1.png"/> alt="JSOFT">
+                        <img src=
+                             <c:url value="/assets/img/logo1.png"/> alt="JSOFT">
                     </a>
                 </div>
                 <!--== Logo End ==-->
@@ -120,49 +132,28 @@
             <div class="row">
                 <div class="col-lg-5">
                     <div class="book-a-car">
-                        <form action="index.html">
-                            <!--== Pick Up Location ==-->
-                            <div class="pickup-location book-item">
-                                <h4>Марка и модель Автомобиля:</h4>
-                                <select class="custom-select">
-                                    <option selected>Выбирете марку автомобиля</option>
-                                    <option value="1">LADA</option>
-                                    <option value="2">Hyundai</option>
-                                    <option value="3">Kia</option>
-                                    <option value="4">Toyota</option>
-                                    <option value="5">Renault</option>
-                                    <option value="6">Ford</option>
-                                    <option value="6">Марки нет в списке</option>
-                                </select>
-                            </div>
-                            <!--== Pick Up Location ==-->
-
-                            <!--== Pick Up Date ==-->
+                        <form:form method="post" action="save">
                             <div class="pick-up-date book-item">
-                                <h4>Выбирете дату для звонка:</h4>
-                                <input id="startDate" placeholder="Сегодня" />
-
-                                <div class="return-car">
-                                    <h4>Ваше Имя:</h4>
-                                    <input id="endDate" placeholder="Напишите Ваше имя" />
-                                </div>
+                                <h4>Марка и модель:</h4>
+                                <form:input path="brandAndModel" type="text"/>
                             </div>
-                            <!--== Pick Up Location ==-->
-
-                            <!--== Car Choose ==-->
-                            <div class="choose-car-type book-item">
-                                <h4>Телефон для связи:</h4>
-                                <select class="custom-select">
-                                    <option selected>Напишите Ваш номер телефона</option>
-                                    <option value="1">+79000000000</option>
-                                </select>
+                            <div class="pick-up-date book-item">
+                                <h4>Дата выпуска:</h4>
+                                <form:input path="releaseDate" type="text"/>
                             </div>
-                            <!--== Car Choose ==-->
+                            <div class="pick-up-date book-item">
+                                <h4>Ваше имя:</h4>
+                                <form:input path="name" type="text"/>
+                            </div>
+                            <div class="pick-up-date book-item">
+                                <h4>Ваш телефон:</h4>
+                                <form:input path="phoneNumber" type="text"/>
+                            </div>
 
                             <div class="book-button text-center">
-                                <button class="book-now-btn">Заказать звонок</button>
+                                <input type="submit" class="book-now-btn" value="Заказать звонок"/>
                             </div>
-                        </form>
+                        </form:form>
                     </div>
                 </div>
 
@@ -171,7 +162,11 @@
                         <div class="display-table-cell">
                             <div class="slider-right-text">
                                 <h1>Выкуп автомобиля по максимальной цене в Саратове</h1>
-                                <p>Cars64.ru - это первая электронная площадка в Саратове по выкупу автомобилей через аукцион. В данном аукционе участвуют только лучшие автодилеры Саратова.<br>Ценообразование очень простое: тот, кто из автодилеров предложит максимальную сумму выкупа, тот и приобретает Ваш автомобиль. Наш сервис нацелен на то, чтобы Вы получили максимальную сумму денег за свой автомобиль в очень короткий срок.</p>
+                                <p>Cars64.ru - это первая электронная площадка в Саратове по выкупу автомобилей через
+                                    аукцион. В данном аукционе участвуют только лучшие автодилеры Саратова.<br>Ценообразование
+                                    очень простое: тот, кто из автодилеров предложит максимальную сумму выкупа, тот и
+                                    приобретает Ваш автомобиль. Наш сервис нацелен на то, чтобы Вы получили максимальную
+                                    сумму денег за свой автомобиль в очень короткий срок.</p>
                             </div>
                         </div>
                     </div>
@@ -193,7 +188,6 @@
         <div class="row">
 
 
-
         </div>
     </div>
 </section>
@@ -207,7 +201,10 @@
                 <div class="section-title  text-center">
                     <h2>Услуги, которые мы оказываем</h2>
                     <span class="title-line"><i class="fa fa-car"></i></span>
-                    <p>Самостоятельные поиски покупателя, оформление документов и прочие нюансы купли-продажи автомобиля могут занять недели, а порой – даже месяцы. Наша компания решает поставленные задачи в сжатые сроки, предлагая срочный выкуп автомобилей всех марок и моделей. Срочный выкуп автомобилей с выездом специалиста на осмотр возможен для разных жизненных ситуаций:</p>
+                    <p>Самостоятельные поиски покупателя, оформление документов и прочие нюансы купли-продажи автомобиля
+                        могут занять недели, а порой – даже месяцы. Наша компания решает поставленные задачи в сжатые
+                        сроки, предлагая срочный выкуп автомобилей всех марок и моделей. Срочный выкуп автомобилей с
+                        выездом специалиста на осмотр возможен для разных жизненных ситуаций:</p>
                 </div>
             </div>
             <!-- Section Title End -->
@@ -221,7 +218,13 @@
                 <div class="service-item">
                     <i class="fa fa-taxi"></i>
                     <h3>Выкуп битых автомобилей</h3>
-                    <p>Редкий автомобилист не сталкивался с серьезными ДТП, проживая в Саратове. Техника, получившая повреждения, ставит владельца перед дилеммой — заняться восстановлением транспортного средства, либо продать авто в Саратове специализированной компании. Ремонтировать технику — хлопотное, неблагодарное занятие, отнимающее немало времени, материальных ресурсов. Практика показывает, что поиск нормального сервиса, заказ комплектующих, процесс ожидания, в переводе на финансовый язык — совершенно себя не оправдывают. Выручить способен срочный выкуп битых авто, у такого решения немало явных преимуществ.</p>
+                    <p>Редкий автомобилист не сталкивался с серьезными ДТП, проживая в Саратове. Техника, получившая
+                        повреждения, ставит владельца перед дилеммой — заняться восстановлением транспортного средства,
+                        либо продать авто в Саратове специализированной компании. Ремонтировать технику — хлопотное,
+                        неблагодарное занятие, отнимающее немало времени, материальных ресурсов. Практика показывает,
+                        что поиск нормального сервиса, заказ комплектующих, процесс ожидания, в переводе на финансовый
+                        язык — совершенно себя не оправдывают. Выручить способен срочный выкуп битых авто, у такого
+                        решения немало явных преимуществ.</p>
                 </div>
             </div>
             <!-- Single Service End -->
@@ -231,7 +234,10 @@
                 <div class="service-item">
                     <i class="fa fa-cog"></i>
                     <h3>Срочный выкуп кредитной машины</h3>
-                    <p>Оформляя автокредит, не каждый человек может точно спрогнозировать уровень своих доходов в будущем. В результате новый автомобиль вместо положительных эмоций будет приносить негатив в виде неподъемных ежемесячных выплат. Наша компания поможет выгодно и безопасно избавиться от этого бремени</p>
+                    <p>Оформляя автокредит, не каждый человек может точно спрогнозировать уровень своих доходов в
+                        будущем. В результате новый автомобиль вместо положительных эмоций будет приносить негатив в
+                        виде неподъемных ежемесячных выплат. Наша компания поможет выгодно и безопасно избавиться от
+                        этого бремени</p>
                 </div>
             </div>
             <!-- Single Service End -->
@@ -241,7 +247,10 @@
                 <div class="service-item">
                     <i class="fa fa-map-marker"></i>
                     <h3>Выкуп за наличные</h3>
-                    <p>Хотите поскорее продать свою машину? Устали ждать звонков от частных покупателей, торговаться и слушать претензии о состоянии транспортного средства? Оставляйте заявку – и мы купим вашу машину быстро, дорого, без лишних претензий и вопросов. Выкуп авто за наличные – это очень удобная и выгодная услуга, преимущества которой успели оценить многие клиенты нашей компании.</p>
+                    <p>Хотите поскорее продать свою машину? Устали ждать звонков от частных покупателей, торговаться и
+                        слушать претензии о состоянии транспортного средства? Оставляйте заявку – и мы купим вашу машину
+                        быстро, дорого, без лишних претензий и вопросов. Выкуп авто за наличные – это очень удобная и
+                        выгодная услуга, преимущества которой успели оценить многие клиенты нашей компании.</p>
                 </div>
             </div>
             <!-- Single Service End -->
@@ -251,7 +260,10 @@
                 <div class="service-item">
                     <i class="fa fa-life-ring"></i>
                     <h3>Выкуп автомобилей премиум класса</h3>
-                    <p>Хотите решить внезапно возникшие финансовые вопросы путем реализации машины премиального сегмента? Не знаете, к кому обратиться за помощью? Самый простой способ устранения проблем предлагает наш сервис. С нами дорогостоящее транспортное средство возможно продать в день обращения. Автовыкуп осуществляется по максимальной стоимости.</p>
+                    <p>Хотите решить внезапно возникшие финансовые вопросы путем реализации машины премиального
+                        сегмента? Не знаете, к кому обратиться за помощью? Самый простой способ устранения проблем
+                        предлагает наш сервис. С нами дорогостоящее транспортное средство возможно продать в день
+                        обращения. Автовыкуп осуществляется по максимальной стоимости.</p>
                 </div>
             </div>
             <!-- Single Service End -->
@@ -346,7 +358,8 @@
                 <div class="section-title  text-center">
                     <h2>Пакеты услуг и их стоимость</h2>
                     <span class="title-line"><i class="fa fa-car"></i></span>
-                    <p>Для наших клиентов сотрудничество возможно как на бесплатной так и на платной основе. Выбирете пакет, который подходит именно Вам.</p>
+                    <p>Для наших клиентов сотрудничество возможно как на бесплатной так и на платной основе. Выбирете
+                        пакет, который подходит именно Вам.</p>
                 </div>
             </div>
             <!-- Section Title End -->
@@ -436,7 +449,6 @@
 <!--== Mobile App Area End ==-->
 
 
-
 <!--== Footer Area Start ==-->
 <section id="footer-area">
     <!-- Footer Widget Start -->
@@ -448,7 +460,8 @@
                     <div class="single-footer-widget">
                         <h2>Рассылка</h2>
                         <div class="widget-body">
-                            <img src=<c:url value="/assets/img/logo1.png" /> alt="JSOFT">
+                            <img src=
+                                 <c:url value="/assets/img/logo1.png"/> alt="JSOFT">
                             <p>Подпишись здесь и будешь первым получать новости и акции нашего сайта</p>
 
                             <div class="newsletter-area">
@@ -464,20 +477,22 @@
                 <!-- Single Footer Widget End -->
 
 
-
                 <!-- Single Footer Widget Start -->
                 <div class="col-lg-4 col-md-6">
                     <div class="single-footer-widget">
                         <h2>Контакты</h2>
                         <div class="widget-body">
-                            <p>Мы находимся в центре Саратова, наш оценщик может выехать в любую точку Саратова и области, также мы доступны в Viber, What's App, Telegram. Ещё Вы можете оставить свой контактый телефон в заявке на оценку или просто позвонить нам</p>
+                            <p>Мы находимся в центре Саратова, наш оценщик может выехать в любую точку Саратова и
+                                области, также мы доступны в Viber, What's App, Telegram. Ещё Вы можете оставить свой
+                                контактый телефон в заявке на оценку или просто позвонить нам</p>
 
                             <ul class="get-touch">
                                 <li><i class="fa fa-map-marker"></i> 410000, Саратов, ул. Шелковичная д. 11/15</li>
-                                <li><i class="fa fa-mobile"></i> +7 967 80 44 111 </li>
+                                <li><i class="fa fa-mobile"></i> +7 967 80 44 111</li>
                                 <li><i class="fa fa-envelope"></i> mail@cars64.ru</li>
                             </ul>
-                            <a href="https://goo.gl/maps/b5mt45MCaPB2" class="map-show" target="_blank">Показать местоположение</a>
+                            <a href="https://goo.gl/maps/b5mt45MCaPB2" class="map-show" target="_blank">Показать
+                                местоположение</a>
                         </div>
                     </div>
                 </div>
@@ -493,7 +508,9 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> Cars64.ru — сайт выкупа автомобилей в Саратове.</p>
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                        Cars64.ru — сайт выкупа автомобилей в Саратове.
+                    </p>
                 </div>
             </div>
         </div>
@@ -504,7 +521,8 @@
 
 <!--== Scroll Top Area Start ==-->
 <div class="scroll-top">
-    <img src=<c:url value="/assets/img/scroll-top.png"/> alt="JSOFT">
+    <img src=
+         <c:url value="/assets/img/scroll-top.png"/> alt="JSOFT">
 </div>
 <!--== Scroll Top Area End ==-->
 

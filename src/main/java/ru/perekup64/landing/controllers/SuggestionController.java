@@ -1,16 +1,17 @@
 package ru.perekup64.landing.controllers;
-import java.util.Date;
-import java.util.List;
-import org.springframework.beans.factory.annotation.Autowired;  
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ModelAttribute;  
-import org.springframework.web.bind.annotation.PathVariable;  
-import org.springframework.web.bind.annotation.RequestMapping;  
-import org.springframework.web.bind.annotation.RequestMethod;   
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import ru.perekup64.landing.beans.Suggestion;
 import ru.perekup64.landing.dao.SuggestionDao;
-@Controller  
+
+import java.util.Date;
+
+@Controller
 public class SuggestionController {
     @Autowired
     SuggestionDao dao;//will inject dao from xml file
@@ -21,7 +22,8 @@ public class SuggestionController {
     }
 
     @RequestMapping(value = {"/", "/index"} )
-    public String index(){
+    public String index(Model m){
+        m.addAttribute("command", new Suggestion());
         return "index";
     }
 
