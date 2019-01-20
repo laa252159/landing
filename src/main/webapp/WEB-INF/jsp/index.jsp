@@ -130,33 +130,35 @@
     <div class="single-slide-item overlay">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5">
-                    <div class="book-a-car">
-                        <form:form method="post" action="save" name="suggestion">
-                            <div class="pick-up-date book-item">
-                                <h4>Марка и модель:</h4>
-                                <form:input path="brandAndModel" name="brandAndModel" type="text" data-message="A larger value is needed" />
-                            </div>
-                            <div class="pick-up-date book-item">
-                                <h4>Год выпуска:</h4>
-                                <form:input path="releaseDate" name="releaseDate" type="text"/>
-                            </div>
-                            <div class="pick-up-date book-item">
-                                <h4>Ваше имя:</h4>
-                                <form:input path="name" name="name" type="text"/>
-                            </div>
-                            <div class="pick-up-date book-item">
-                                <h4>Ваш телефон:</h4>
-                                <form:input path="phoneNumber" type="text"/>
-                            </div>
+                <c:if test="${! sent}">
+                    <div class="col-lg-5">
+                        <div class="book-a-car">
+                            <form:form method="post" action="save" name="suggestion">
+                                <div class="pick-up-date book-item">
+                                    <h4>Марка и модель:</h4>
+                                    <form:input path="brandAndModel" name="brandAndModel" type="text"
+                                                data-message="A larger value is needed"/>
+                                </div>
+                                <div class="pick-up-date book-item">
+                                    <h4>Год выпуска:</h4>
+                                    <form:input path="releaseDate" name="releaseDate" type="text"/>
+                                </div>
+                                <div class="pick-up-date book-item">
+                                    <h4>Ваше имя:</h4>
+                                    <form:input path="name" name="name" type="text"/>
+                                </div>
+                                <div class="pick-up-date book-item">
+                                    <h4>Ваш телефон:</h4>
+                                    <form:input path="phoneNumber" type="text"/>
+                                </div>
 
-                            <div class="book-button text-center">
-                                <input type="submit" class="book-now-btn" value="Заказать звонок"/>
-                            </div>
-                        </form:form>
+                                <div class="book-button text-center">
+                                    <input type="submit" class="book-now-btn" value="Заказать звонок"/>
+                                </div>
+                            </form:form>
+                        </div>
                     </div>
-                </div>
-
+                </c:if>
                 <div class="col-lg-7 text-right">
                     <div class="display-table">
                         <div class="display-table-cell">
@@ -177,6 +179,7 @@
     <!--== slide Item One ==-->
 </section>
 <!--== Slider Area End ==-->
+
 
 <!--== About Us Area Start ==-->
 <section id="about-area" class="section-padding">

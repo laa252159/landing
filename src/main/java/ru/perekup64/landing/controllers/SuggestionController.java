@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import ru.perekup64.landing.beans.Suggestion;
 import ru.perekup64.landing.dao.SuggestionDao;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
 
 @Controller
@@ -54,11 +55,11 @@ public class SuggestionController {
      *  into model object. You need to mention RequestMethod.POST method  
      *  because default request is GET*/  
     @RequestMapping(value="/save",method = RequestMethod.POST)  
-    public String save(@ModelAttribute("emp") Suggestion suggestion){
+    public String save(@ModelAttribute("emp") Suggestion suggestion, HttpServletRequest request){
         suggestion.setSuggestionDate(new Date());
+        request.getSession().setAttribute("sent", true);
         dao.save(suggestion);
-//        return "redirect:/viewsug";//will redirect to viewsug request mapping
-        return "redirect:/";//will redirect to viewsug request mapping
+        return "redirect:/";
     }
 
 }  
