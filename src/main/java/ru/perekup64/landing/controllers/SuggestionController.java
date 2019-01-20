@@ -57,8 +57,10 @@ public class SuggestionController {
     @RequestMapping(value="/save",method = RequestMethod.POST)  
     public String save(@ModelAttribute("emp") Suggestion suggestion, HttpServletRequest request){
         suggestion.setSuggestionDate(new Date());
-        request.getSession().setAttribute("sent", true);
         dao.save(suggestion);
+        request.getSession().setAttribute("sent", true);
+        request.getSession().setAttribute("name", suggestion.getName());
+        request.getSession().setAttribute("phone", suggestion.getPhoneNumber());
         return "redirect:/";
     }
 

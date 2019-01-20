@@ -130,7 +130,8 @@
     <div class="single-slide-item overlay">
         <div class="container">
             <div class="row">
-                <c:if test="${! sent}">
+                <c:choose>
+                <c:when  test="${! sent}">
                     <div class="col-lg-5">
                         <div class="book-a-car">
                             <form:form method="post" action="save" name="suggestion">
@@ -158,7 +159,21 @@
                             </form:form>
                         </div>
                     </div>
-                </c:if>
+                </c:when>
+                <c:otherwise>
+                    <div class="col-lg-7 text-right">
+                        <div class="display-table">
+                            <div class="display-table-cell">
+                                <div class="slider-right-text">
+                                    <h1>ЗАЯВКА ПРИНЯТА</h1>
+                                    <p>${name}, Ваша заявка принята.</p>
+                                    <p>Наш специалист свяжется с Вами по телефону ${phone} в течение 60 минут</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </c:otherwise>
+                </c:choose>
                 <div class="col-lg-7 text-right">
                     <div class="display-table">
                         <div class="display-table-cell">
