@@ -17,12 +17,12 @@ public class SuggestionController {
     @Autowired
     SuggestionDao dao;//will inject dao from xml file
 
-//    @RequestMapping("favicon.ico")
-//    String favicon() {
-//        return "forward:/assets/img/favicon.ico";
-//    }
+    @RequestMapping("favicon.ico")
+    String favicon() {
+        return "forward:/assets/img/favicon.ico";
+    }
 
-    @RequestMapping(value = {"", "index"}, method = RequestMethod.GET  )
+    @RequestMapping(value = {"","/", "index"}, method = RequestMethod.GET  )
     public String index(Model m){
         m.addAttribute("command", new Suggestion());
         return "index";
