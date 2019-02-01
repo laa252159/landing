@@ -187,27 +187,6 @@
     <div class="footer-widget-area">
         <div class="container">
             <div class="row">
-                <!-- Single Footer Widget Start -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-footer-widget">
-                        <h2>Рассылка</h2>
-                        <div class="widget-body">
-                            <img src=<c:url value="/assets/img/logo1.png" /> alt="JSOFT">
-                            <p>Подпишись здесь и будешь первым получать новости и акции нашего сайта</p>
-
-                            <div class="newsletter-area">
-                                <form action="index.html">
-                                    <input type="email" placeholder="Напишите Вашу электронную почту">
-                                    <button type="submit" class="newsletter-btn"><i class="fa fa-send"></i></button>
-                                </form>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Footer Widget End -->
-
-
 
                 <!-- Single Footer Widget Start -->
                 <div class="col-lg-4 col-md-6">

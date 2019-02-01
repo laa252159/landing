@@ -119,7 +119,7 @@
                 <div class="section-title  text-center">
                     <h2>О нас</h2>
                     <span class="title-line"><i class="fa fa-car"></i></span>
-                    <p>Быстрый выкуп автомобилей, гарантия безопасности, максимально выгодное предложение за Ваш автомобиль благодаря аукциону между добросовестными автодилерами Саратова</p>
+                    <p></p>
                 </div>
             </div>
             <!-- Page Title End -->
@@ -137,7 +137,7 @@
                 <div class="section-title  text-center">
                     <h2>О нас</h2>
                     <span class="title-line"><i class="fa fa-car"></i></span>
-                    <p>Быстрый выкуп автомобилей, гарантия безопасности, максимально выгодное предложение за Ваш автомобиль благодаря аукциону между добросовестными автодилерами Саратова</p>
+                    <p>Cars64.ru - это первая электронная площадка в Саратове по выкупу автомобилей через аукцион. В данном аукционе участвуют только лучшие автодилеры Саратова. Ценообразование очень простое: тот, кто из автодилеров предложит максимальную сумму выкупа, тот и приобретает Ваш автомобиль. Наш сервис нацелен на то, чтобы Вы получили максимальную сумму денег за свой автомобиль в очень короткий срок.</p>
                 </div>
             </div>
             <!-- Section Title End -->
@@ -149,7 +149,7 @@
                 <div class="display-table">
                     <div class="display-table-cell">
                         <div class="about-content">
-                            <p>Быстрый выкуп автомобилей, гарантия безопасности, максимально выгодное предложение за Ваш автомобиль благодаря аукциону между добросовестными автодилерами Саратова</p>
+                            <p>Cars64.ru - это первая электронная площадка в Саратове по выкупу автомобилей через аукцион. В данном аукционе участвуют только лучшие автодилеры Саратова. Ценообразование очень простое: тот, кто из автодилеров предложит максимальную сумму выкупа, тот и приобретает Ваш автомобиль. Наш сервис нацелен на то, чтобы Вы получили максимальную сумму денег за свой автомобиль в очень короткий срок.</p>
                         </div>
                     </div>
                 </div>
@@ -168,35 +168,6 @@
         <!-- About Fretutes Start -->
         <div class="about-feature-area">
             <div class="row">
-                <!-- Single Fretutes Start -->
-                <div class="col-lg-4">
-                    <div class="about-feature-item active">
-                        <i class="fa fa-car"></i>
-                        <h3>ALL BRANDS</h3>
-                        <p>Быстрый выкуп автомобилей, гарантия безопасности, максимально выгодное предложение за Ваш автомобиль благодаря аукциону между добросовестными автодилерами Саратова</p>
-                    </div>
-                </div>
-                <!-- Single Fretutes End -->
-
-                <!-- Single Fretutes Start -->
-                <div class="col-lg-4">
-                    <div class="about-feature-item">
-                        <i class="fa fa-car"></i>
-                        <h3>ALL BRANDS</h3>
-                        <p>Быстрый выкуп автомобилей, гарантия безопасности, максимально выгодное предложение за Ваш автомобиль благодаря аукциону между добросовестными автодилерами Саратова</p>
-                    </div>
-                </div>
-                <!-- Single Fretutes End -->
-
-                <!-- Single Fretutes Start -->
-                <div class="col-lg-4">
-                    <div class="about-feature-item">
-                        <i class="fa fa-car"></i>
-                        <h3>ALL BRANDS</h3>
-                        <p>Loremed ipsumed is a compnayes odsoyel dolor sit amet, consectetur adipisicing elit. Nesciunted all of.</p>
-                    </div>
-                </div>
-                <!-- Single Fretutes End -->
             </div>
         </div>
         <!-- About Fretutes End -->
@@ -216,57 +187,11 @@
                         <li>Продажа автомобиля по максимально возможной цене, за счёт конкуренции между дилерами</li>
                         <li>Время на проведение аукциона от 2 до 7 дней</li>
                         <li>Работаем на бесплатной и платной основе</li>
-                        <li>Color it All</li>
-                        <li>Customize and Create</li>
+                        <li>Выезд на осмотр до 350 км</li>
+                        <li>Возможность устанавливать самим стартовую цену аукциона</li>
                     </ul>
                 </div>
             </div>
-            <!-- Single Facility Start -->
-
-            <!-- Single Facility Start -->
-            <div class="col-lg-3 col-md-6">
-                <div class="single-our-facility">
-                    <h3>BUSINESS LIMO RENT</h3>
-                    <ul>
-                        <li>Parallax Everywhere</li>
-                        <li>Interactive and Fun</li>
-                        <li>Responsive and Refined</li>
-                        <li>Color it All</li>
-                        <li>Customize and Create</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Single Facility Start -->
-
-            <!-- Single Facility Start -->
-            <div class="col-lg-3 col-md-6">
-                <div class="single-our-facility">
-                    <h3>HOTEL/CASINO/HOTEL</h3>
-                    <ul>
-                        <li>Parallax Everywhere</li>
-                        <li>Interactive and Fun</li>
-                        <li>Responsive and Refined</li>
-                        <li>Color it All</li>
-                        <li>Customize and Create</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Single Facility Start -->
-
-            <!-- Single Facility Start -->
-            <div class="col-lg-3 col-md-6">
-                <div class="single-our-facility">
-                    <h3>AIRPORT TRANSPORT</h3>
-                    <ul>
-                        <li>Parallax Everywhere</li>
-                        <li>Interactive and Fun</li>
-                        <li>Responsive and Refined</li>
-                        <li>Color it All</li>
-                        <li>Customize and Create</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Single Facility Start -->
         </div>
     </div>
 </section>
@@ -277,28 +202,6 @@
     <div class="footer-widget-area">
         <div class="container">
             <div class="row">
-                <!-- Single Footer Widget Start -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-footer-widget">
-                        <h2>Рассылка</h2>
-                        <div class="widget-body">
-                            <img src=<c:url value="/assets/img/logo1.png" /> alt="JSOFT">
-                            <p>Подпишись здесь и будешь первым получать новости и акции нашего сайта</p>
-
-                            <div class="newsletter-area">
-                                <form action="index.html">
-                                    <input type="email" placeholder="Напишите Вашу электронную почту">
-                                    <button type="submit" class="newsletter-btn"><i class="fa fa-send"></i></button>
-                                </form>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Footer Widget End -->
-
-
-
                 <!-- Single Footer Widget Start -->
                 <div class="col-lg-4 col-md-6">
                     <div class="single-footer-widget">
