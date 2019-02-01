@@ -22,23 +22,23 @@ public class SuggestionController {
 //        return "forward:/assets/img/favicon.ico";
 //    }
 
-    @RequestMapping(value = {"/", "", "/index"}, method = RequestMethod.GET  )
+    @RequestMapping(value = {"", "index", "/"}, method = RequestMethod.GET  )
     public String index(Model m){
         m.addAttribute("command", new Suggestion());
         return "index";
     }
 
-    @RequestMapping("/about")
+    @RequestMapping("about")
     public String about(){
         return "about";
     }
 
-    @RequestMapping("/services")
+    @RequestMapping("services")
     public String services(){
         return "services";
     }
 
-    @RequestMapping("/contact")
+    @RequestMapping("contact")
     public String contact(){
         return "contact";
     }
@@ -46,7 +46,7 @@ public class SuggestionController {
     /*It displays a form to input data, here "command" is a reserved request attribute 
      *which is used to display object data into form 
      */  
-    @RequestMapping("/sugform")
+    @RequestMapping("sugform")
     public String showform(Model m){  
     	m.addAttribute("command", new Suggestion());
     	return "sugform";
