@@ -22,7 +22,7 @@ public class SuggestionController {
 //        return "forward:/assets/img/favicon.ico";
 //    }
 
-    @RequestMapping(value = {"", "index", "/"}, method = RequestMethod.GET  )
+    @RequestMapping(value = {"", "index"}, method = RequestMethod.GET  )
     public String index(Model m){
         m.addAttribute("command", new Suggestion());
         return "index";
