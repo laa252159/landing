@@ -11,7 +11,9 @@
     <!--=== Favicon ===-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <title>Cars64.ru - Выкуп авто Саратов</title>
+    <title>Контактная информация</title>
+    <meta name="description" content="Мы находимся в центре Саратова, ул. Шелковичная д. 11/15, контактный телефон +7 967 80 44 111, адрес эл. почты mail@cars64.ru">
+    <link rel="canonical" href="http://cars64.ru/contact">
 
     <!--=== Bootstrap CSS ===-->
     <link href=<c:url value="/assets/css/bootstrap.min.css" /> rel="stylesheet" type="text/css">
@@ -132,9 +134,16 @@
 
 
 <!--== Map Area Start ==-->
-<div class="maparea">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29213.038296132225!2d90.39150904197642!3d23.760577791538438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c783c3404f0d%3A0x76ae0d2edabc81df!2sHatir+Jheel!5e0!3m2!1sen!2sbd!4v1517941663187"></iframe>
+<%--<div class="maparea">--%>
+    <%--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29213.038296132225!2d90.39150904197642!3d23.760577791538438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c783c3404f0d%3A0x76ae0d2edabc81df!2sHatir+Jheel!5e0!3m2!1sen!2sbd!4v1517941663187"></iframe>--%>
+<%--</div>--%>
+<div style="width: 100%">
+    <iframe width="100%" height="600"
+            src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=51.520057, 46.0135296&amp;q=Russia%2C%20Saratov%2C%20Shelkovichnaya%2011%2F15+(Perekup64)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed"
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/">Create
+        route map</a></iframe>
 </div>
+<br/>
 <!--== Map Area End ==-->
 
 <!--== Footer Area Start ==-->
@@ -156,7 +165,7 @@
                                 <li><i class="fa fa-mobile"></i> +7 967 80 44 111 </li>
                                 <li><i class="fa fa-envelope"></i> mail@cars64.ru</li>
                             </ul>
-                            <a href="https://goo.gl/maps/b5mt45MCaPB2" class="map-show" target="_blank">Показать местоположение</a>
+                            <a href="https://goo.gl/maps/2z3t6S2vY1B2" class="map-show" target="_blank">Показать местоположение</a>
                         </div>
                     </div>
                 </div>

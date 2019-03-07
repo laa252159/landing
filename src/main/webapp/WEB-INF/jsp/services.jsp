@@ -11,7 +11,9 @@
     <!--=== Favicon ===-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <title>Cars64.ru - Выкуп авто Саратов</title>
+    <title>Выкуп битых авто после ДТП, кредитных автомобилей, премиум класса, за наличные, выгодно через аукцион</title>
+    <meta name="description" content="Виды наших услуг: выкупаем битые автомобили после ДТП, кредитные автомобили, автомобили класса премиум. У нас есть быстрый и выгодный выкуп. Все продажи проходят через аукцион">
+    <link rel="canonical" href="http://cars64.ru/services">
 
     <!--=== Bootstrap CSS ===-->
     <link href=<c:url value="/assets/css/bootstrap.min.css" /> rel="stylesheet" type="text/css">
@@ -200,7 +202,7 @@
                                 <li><i class="fa fa-mobile"></i> +7 967 80 44 111 </li>
                                 <li><i class="fa fa-envelope"></i> mail@cars64.ru</li>
                             </ul>
-                            <a href="https://goo.gl/maps/b5mt45MCaPB2" class="map-show" target="_blank">Показать местоположение</a>
+                            <a href="https://goo.gl/maps/2z3t6S2vY1B2" class="map-show" target="_blank">Показать местоположение</a>
                         </div>
                     </div>
                 </div>

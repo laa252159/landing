@@ -13,7 +13,9 @@
     <!--=== Favicon ===-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 
-    <title>Cars64.ru - Выкуп авто Саратов</title>
+    <title>Выкуп автомобилей город Саратов через аукцион</title>
+    <meta name="description" content="cars64.ru это первая электронная площадка в Саратове по выкупу автомобилей через аукцион, в котором участвуют только лучшие автодилеры Саратова, предлогающие максимальную сумму выкупа">
+    <link rel="canonical" href="http://cars64.ru/index">
 
     <!--=== Bootstrap CSS ===-->
     <link href=
@@ -469,7 +471,7 @@
                                 <li><i class="fa fa-mobile"></i> +7 967 80 44 111</li>
                                 <li><i class="fa fa-envelope"></i> mail@cars64.ru</li>
                             </ul>
-                            <a href="https://goo.gl/maps/b5mt45MCaPB2" class="map-show" target="_blank">Показать
+                            <a href="https://goo.gl/maps/2z3t6S2vY1B2" class="map-show" target="_blank">Показать
                                 местоположение</a>
                         </div>
                     </div>
