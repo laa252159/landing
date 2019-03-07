@@ -1140,7 +1140,7 @@ a.slicknav_btn {
 }
 
 #mobile-app-area::after {
-	background-image: url("assets/img/mobile-app.png");
+	background-image: url("assets/img/mobile-app2.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -2660,7 +2660,7 @@ body,
 }
 
 .ser-thumb-bg-4 {
-	background-image: url(assets/img/car/car-5.jpg);
+	background-image: url(assets/img/car/car-4.jpg);
 }
 
 .single-service-item {
