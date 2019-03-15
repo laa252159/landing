@@ -3,6 +3,12 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          id="WebApp_ID" version="3.0">
     <display-name>LandingPage</display-name>
+    <session-config>
+        <session-timeout>720</session-timeout> <!-- 720 minutes = 12 hours -->
+        <cookie-config>
+            <max-age>43200</max-age> <!-- 43200 seconds = 12 hours -->
+        </cookie-config>
+    </session-config>
     <filter>
         <filter-name>encoding-filter</filter-name>
         <filter-class>
