@@ -13,7 +13,7 @@
 
     <title>Выкуп битых авто после ДТП, кредитных автомобилей, премиум класса, за наличные, выгодно через аукцион</title>
     <meta name="description" content="Виды наших услуг: выкупаем битые автомобили после ДТП, кредитные автомобили, автомобили класса премиум. У нас есть быстрый и выгодный выкуп. Все продажи проходят через аукцион">
-    <link rel="canonical" href="http://cars64.ru/services.html">
+    <link rel="canonical" href="http://cars64.ru/services">
 
     <!--=== Bootstrap CSS ===-->
     <link href=<c:url value="/assets/css/bootstrap.min.css" /> rel="stylesheet" type="text/css">

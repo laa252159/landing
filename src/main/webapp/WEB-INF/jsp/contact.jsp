@@ -13,7 +13,7 @@
 
     <title>Контакты</title>
     <meta name="description" content="Мы находимся по адресу: город Саратов ул. Шелковичная д. 11/15, контактный телефон +7 967 80 44 111 эл почта: mail@cars64.ru" >
-    <link rel="canonical" href="http://cars64.ru/contact.html">
+    <link rel="canonical" href="http://cars64.ru/contact">
 
     <!--=== Bootstrap CSS ===-->
     <link href=<c:url value="/assets/css/bootstrap.min.css" /> rel="stylesheet" type="text/css">

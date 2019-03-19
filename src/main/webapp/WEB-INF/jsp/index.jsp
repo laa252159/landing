@@ -15,41 +15,56 @@
 
     <title>Выкуп автомобилей город Саратов через аукцион</title>
     <meta name="description" content="cars64.ru это первая электронная площадка в Саратове по выкупу автомобилей через аукцион, в котором участвуют только лучшие автодилеры Саратова, предлогающие максимальную сумму выкупа">
-    <link rel="canonical" href="http://cars64.ru/index.html">
+    <link rel="canonical" href="http://cars64.ru/index">
 
     <!--=== Bootstrap CSS ===-->
-    <link href=
-          <c:url value="/assets/css/bootstrap.min.css"/> rel="stylesheet" type="text/css">
+    <link id="bootstrap" href=
+          <c:url value="/assets/css/bootstrap.min.css"/> disabled rel="stylesheet" type="text/css">
     <!--=== Slicknav CSS ===-->
-    <link href=
-          <c:url value="/assets/css/plugins/slicknav.min.css"/> rel="stylesheet" type="text/css">
+    <link id="slicknav" href=
+          <c:url value="/assets/css/plugins/slicknav.min.css"/> disabled rel="stylesheet" type="text/css">
     <!--=== Magnific Popup CSS ===-->
-    <link href=
-          <c:url value="/assets/css/plugins/magnific-popup.css"/> rel="stylesheet" type="text/css">
+    <link id="magnific" href=
+          <c:url value="/assets/css/plugins/magnific-popup.css"/> disabled rel="stylesheet" type="text/css">
     <!--=== Owl Carousel CSS ===-->
-    <link href=
-          <c:url value="/assets/css/plugins/owl.carousel.min.css"/> rel="stylesheet" type="text/css">
+    <link id="carousel" href=
+          <c:url value="/assets/css/plugins/owl.carousel.min.css"/> disabled rel="stylesheet" type="text/css">
     <!--=== Gijgo CSS ===-->
-    <link href=
-          <c:url value="/assets/css/plugins/gijgo.css"/> rel="stylesheet" type="text/css">
+    <link id="gijgo" href=
+          <c:url value="/assets/css/plugins/gijgo.css"/> disabled rel="stylesheet" type="text/css">
     <!--=== FontAwesome CSS ===-->
-    <link href=
-          <c:url value="/assets/css/font-awesome.css"/> rel="stylesheet" type="text/css">
+    <link id="awesome" href=
+          <c:url value="/assets/css/font-awesome.css"/> disabled rel="stylesheet" type="text/css">
     <!--=== Theme Reset CSS ===-->
-    <link href=
-          <c:url value="/assets/css/reset.css"/> rel="stylesheet" type="text/css">
+    <link id="reset" href=
+          <c:url value="/assets/css/reset.css"/> disabled rel="stylesheet" type="text/css">
     <!--=== Main Style CSS ===-->
-    <link href=
-          <c:url value="/assets/css/style.css"/> rel="stylesheet" type="text/css">
+    <link id="stylecss" href=
+          <c:url value="/assets/css/style.css"/> disabled rel="stylesheet" type="text/css">
     <!--=== Responsive CSS ===-->
-    <link href=
-          <c:url value="/assets/css/responsive.css"/> rel="stylesheet" type="text/css">
+    <link id="responsive" href=
+          <c:url value="/assets/css/responsive.css"/> disabled rel="stylesheet" type="text/css">
 
 
     <!--[if lt IE 9]>
     <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <script type="text/javascript">
+        window.onload = function()
+        {
+            document.getElementById('bootstrap').removeAttribute('disabled');
+            document.getElementById('slicknav').removeAttribute('disabled');
+            document.getElementById('magnific').removeAttribute('disabled');
+            document.getElementById('carousel').removeAttribute('disabled');
+            document.getElementById('gijgo').removeAttribute('disabled');
+            document.getElementById('awesome').removeAttribute('disabled');
+            document.getElementById('reset').removeAttribute('disabled');
+            document.getElementById('stylecss').removeAttribute('disabled');
+            document.getElementById('responsive').removeAttribute('disabled');
+        }
+    </script>
 </head>
 
 <body class="loader-active">
