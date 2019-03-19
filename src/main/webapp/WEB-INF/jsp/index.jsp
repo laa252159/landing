@@ -15,7 +15,7 @@
 
     <title>Выкуп автомобилей город Саратов через аукцион</title>
     <meta name="description" content="cars64.ru это первая электронная площадка в Саратове по выкупу автомобилей через аукцион, в котором участвуют только лучшие автодилеры Саратова, предлогающие максимальную сумму выкупа">
-    <link rel="canonical" href="http://cars64.ru/index">
+    <link rel="canonical" href="http://cars64.ru/index.html">
 
     <!--=== Bootstrap CSS ===-->
     <link href=

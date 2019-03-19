@@ -11,9 +11,9 @@
     <!--=== Favicon ===-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <title>Контактная информация</title>
-    <meta name="description" content="Мы находимся в центре Саратова, ул. Шелковичная д. 11/15, контактный телефон +7 967 80 44 111, адрес эл. почты mail@cars64.ru">
-    <link rel="canonical" href="http://cars64.ru/contact">
+    <title>Контакты</title>
+    <meta name="description" content="Мы находимся по адресу: город Саратов ул. Шелковичная д. 11/15, контактный телефон +7 967 80 44 111 эл почта: mail@cars64.ru" >
+    <link rel="canonical" href="http://cars64.ru/contact.html">
 
     <!--=== Bootstrap CSS ===-->
     <link href=<c:url value="/assets/css/bootstrap.min.css" /> rel="stylesheet" type="text/css">

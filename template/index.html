@@ -13,29 +13,44 @@
 	<link rel="canonical" href="http://cars64.ru/index.html">
 
     <!--=== Bootstrap CSS ===-->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link id="bootstrap" href="assets/css/bootstrap.min.css" rel="stylesheet" media="speech" href="#" disabled>
     <!--=== Slicknav CSS ===-->
-    <link href="assets/css/plugins/slicknav.min.css" rel="stylesheet">
+    <link id="slicknav" href="assets/css/plugins/slicknav.min.css" rel="stylesheet" href="#" disabled>
     <!--=== Magnific Popup CSS ===-->
-    <link href="assets/css/plugins/magnific-popup.css" rel="stylesheet">
+    <link id="magnific" href="assets/css/plugins/magnific-popup.css" rel="stylesheet" href="#" disabled>
     <!--=== Owl Carousel CSS ===-->
-    <link href="assets/css/plugins/owl.carousel.min.css" rel="stylesheet">
+    <link id="carousel" href="assets/css/plugins/owl.carousel.min.css" rel="stylesheet" href="#" disabled>
     <!--=== Gijgo CSS ===-->
-    <link href="assets/css/plugins/gijgo.css" rel="stylesheet">
+    <link id="gijgo" href="assets/css/plugins/gijgo.css" rel="stylesheet" href="#" disabled>
     <!--=== FontAwesome CSS ===-->
-    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <link id="awesome" href="assets/css/font-awesome.css" rel="stylesheet" href="#" disabled>
     <!--=== Theme Reset CSS ===-->
-    <link href="assets/css/reset.css" rel="stylesheet">
+    <link id="reset" href="assets/css/reset.css" rel="stylesheet" href="#" disabled>
     <!--=== Main Style CSS ===-->
-    <link href="style.css" rel="stylesheet">
+    <link id="stylecss" href="style.css" rel="stylesheet" href="#" disabled>
     <!--=== Responsive CSS ===-->
-    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link id="responsive" href="assets/css/responsive.css" rel="stylesheet" href="#" disabled>
 
 
     <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <script type="text/javascript">
+        window.onload = function()
+        {
+            document.getElementById('bootstrap').removeAttribute('disabled');
+            document.getElementById('slicknav').removeAttribute('disabled');
+            document.getElementById('magnific').removeAttribute('disabled');
+            document.getElementById('carousel').removeAttribute('disabled');
+            document.getElementById('gijgo').removeAttribute('disabled');
+            document.getElementById('awesome').removeAttribute('disabled');
+            document.getElementById('reset').removeAttribute('disabled');
+            document.getElementById('stylecss').removeAttribute('disabled');
+            document.getElementById('responsive').removeAttribute('disabled');
+        }
+    </script>
 </head>
 
 <body class="loader-active">
