@@ -40,7 +40,8 @@
           <c:url value="/assets/css/reset.css"/> disabled rel="stylesheet" type="text/css">
     <!--=== Main Style CSS ===-->
     <link id="stylecss" href=
-          <c:url value="/assets/css/style.css"/> disabled rel="stylesheet" type="text/css">
+          <c:url value="/assets/css/style.css"/>
+            rel="stylesheet" type="text/css">
     <!--=== Responsive CSS ===-->
     <link id="responsive" href=
           <c:url value="/assets/css/responsive.css"/> disabled rel="stylesheet" type="text/css">
