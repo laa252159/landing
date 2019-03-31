@@ -15,7 +15,7 @@ public void setTemplate(JdbcTemplate template) {
 }  
 public int save(Suggestion sug){
     String sql="insert into suggestions(suggestion_date,brand_and_model,release_date,name,phone_number,description) " +
-            "values('"+new java.sql.Date(sug.getSuggestionDate().getTime())+"','"+sug.getBrandAndModel()+"','"+sug.getReleaseDate()+
+            "values('"+new java.sql.Timestamp(sug.getSuggestionDate().getTime())+"','"+sug.getBrandAndModel()+"','"+sug.getReleaseDate()+
             "','"+sug.getName()+"','"+sug.getPhoneNumber()+"','"+sug.getDescription()+"')";
     return template.update(sql);  
 }  
