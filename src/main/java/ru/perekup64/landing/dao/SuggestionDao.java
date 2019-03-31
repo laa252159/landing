@@ -1,11 +1,10 @@
 package ru.perekup64.landing.dao;
-import java.sql.ResultSet;  
-import java.sql.SQLException;  
-import java.util.List;  
-import org.springframework.jdbc.core.BeanPropertyRowMapper;  
-import org.springframework.jdbc.core.JdbcTemplate;  
-import org.springframework.jdbc.core.RowMapper;  
+
+import org.springframework.jdbc.core.JdbcTemplate;
 import ru.perekup64.landing.beans.Suggestion;
+
+import java.sql.Timestamp;
+import java.util.Calendar;
 
 public class SuggestionDao {
 JdbcTemplate template;  
@@ -14,8 +13,12 @@ public void setTemplate(JdbcTemplate template) {
     this.template = template;  
 }  
 public int save(Suggestion sug){
+    Calendar calendar = Calendar.getInstance();
+    Timestamp timestamp = new Timestamp(sug.getSuggestionDate().getTime());
+            calendar.setTimeInMillis(timestamp.getTime());
+
     String sql="insert into suggestions(suggestion_date,brand_and_model,release_date,name,phone_number,description) " +
-            "values('"+new java.sql.Timestamp(sug.getSuggestionDate().getTime())+"','"+sug.getBrandAndModel()+"','"+sug.getReleaseDate()+
+            "values('"+new java.sql.Timestamp(calendar.getTimeInMillis())+"','"+sug.getBrandAndModel()+"','"+sug.getReleaseDate()+
             "','"+sug.getName()+"','"+sug.getPhoneNumber()+"','"+sug.getDescription()+"')";
     return template.update(sql);  
 }  
