@@ -575,10 +575,10 @@
     (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
     ym(52086474, "init", {
-        id:52086474,
         clickmap:true,
         trackLinks:true,
-        accurateTrackBounce:true
+        accurateTrackBounce:true,
+        webvisor:true
     });
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/52086474" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
