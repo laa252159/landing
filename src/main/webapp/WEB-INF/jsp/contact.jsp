@@ -21,7 +21,7 @@
     <!--=== Favicon ===-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <title>Контакты</title>
+    <title>Контакты - Выкуп и продажа авто в Саратове, автомобильный аукцион Саратов</title>
     <meta name="description" content="Мы находимся по адресу: город Саратов ул. Шелковичная д. 11/15, контактный телефон +7 967 80 44 111 эл почта: mail@cars64.ru" >
     <link rel="canonical" href="http://cars64.ru/contact">
 
