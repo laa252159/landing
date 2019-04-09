@@ -1,4 +1,4 @@
-http://cars64.ru/index
-http://cars64.ru/about
-http://cars64.ru/services
-http://cars64.ru/contact
+http://cars64.ru/index.html
+http://cars64.ru/about.html
+http://cars64.ru/services.html
+http://cars64.ru/contact.html
