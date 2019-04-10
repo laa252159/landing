@@ -25,7 +25,7 @@
 
     <title>Выкуп и продажа авто в Саратове, автомобильный аукцион Саратов</title>
     <meta name="description" content="Cars64.ru - это выкуп авто через автомобильный аукцион в Саратове, Энгельсе и Саратовской области. В данном аукционе участвуют только лучшие перекупщики и адекватные перекупы Саратова">
-    <link rel="canonical" href="http://cars64.ru/index">
+    <link rel="canonical" href="http://cars64.ru/">
 
     <!--=== Bootstrap CSS ===-->
     <link id="bootstrap" href=

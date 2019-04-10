@@ -123,7 +123,7 @@
             <div class="row">
                 <!--== Logo Start ==-->
                 <div class="col-lg-4">
-                    <a href="/index" class="logo">
+                    <a href="/" class="logo">
                         <img src=<c:url value="/assets/img/logo1.png" /> alt="JSOFT">
                     </a>
                 </div>
