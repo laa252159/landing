@@ -11,6 +11,19 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd
 http://www.springframework.org/schema/mvc
 http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
 
+    <mvc:interceptors>
+        <bean class="org.springframework.web.servlet.mvc.WebContentInterceptor" p:cacheSeconds="0"
+              p:alwaysUseFullPath="true">
+            <property name="cacheMappings">
+                <props>
+                    <!-- cache for one month -->
+                    <prop key="/assets/**">2592000</prop>
+                    <!-- don't set cache headers -->
+                    <!--<prop key="/cache/agnostic/**">-1</prop>-->
+                </props>
+            </property>
+        </bean>
+    </mvc:interceptors>
     <mvc:annotation-driven />
     <context:component-scan base-package="ru.perekup64.landing.controllers"></context:component-scan>
     <mvc:resources mapping="/robots.txt" location="/" />
