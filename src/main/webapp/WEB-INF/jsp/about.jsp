@@ -133,7 +133,7 @@
                 <div class="col-lg-8 d-none d-xl-block">
                     <nav class="mainmenu alignright">
                         <ul>
-                            <li><a href="index">Главная</a></li>
+                            <li><a href="/">Главная</a></li>
                             <li class="active"><a href="about">О нас</a></li>
                             <li><a href="services">Услуги</a></li>
                             <li><a href="contact">Контакты</a></li>

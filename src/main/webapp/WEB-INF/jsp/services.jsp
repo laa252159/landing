@@ -124,7 +124,7 @@
             <div class="row">
                 <!--== Logo Start ==-->
                 <div class="col-lg-4">
-                    <a href="index" class="logo">
+                    <a href="/" class="logo">
                         <img src=<c:url value="/assets/img/logo1.png" /> alt="JSOFT">
                     </a>
                 </div>
@@ -134,7 +134,7 @@
                 <div class="col-lg-8 d-none d-xl-block">
                     <nav class="mainmenu alignright">
                         <ul>
-                            <li><a href="index">Главная</a></li>
+                            <li><a href="/">Главная</a></li>
                             <li><a href="about">О нас</a></li>
                             <li  class="active"><a href="services">Услуги</a></li>
                             <li><a href="contact">Контакты</a></li>
