@@ -13,9 +13,9 @@ http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
 
     <mvc:annotation-driven />
     <context:component-scan base-package="ru.perekup64.landing.controllers"></context:component-scan>
-    <mvc:resources location="/robots.txt" mapping="/robots.txt" order="0"/>
-    <mvc:resources location="/sitemap.txt" mapping="/sitemap.txt" order="0"/>
-    <mvc:resources location="/sitemap.xml" mapping="/sitemap.xml" order="0"/>
+    <mvc:resources location="assets" mapping="/robots.txt" order="0"/>
+    <mvc:resources location="assets" mapping="/sitemap.txt" order="0"/>
+    <mvc:resources location="assets" mapping="/sitemap.xml" order="0"/>
     <mvc:resources location="/assets/" mapping="/assets/**" order="0"/>
 
 <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
