@@ -134,6 +134,7 @@
                     <nav class="mainmenu alignright">
                         <ul>
                             <li><a href="/">Главная</a></li>
+                            <li><a href="http://www.perekup64.ru" target="_blank">Аукцион</a></li>
                             <li class="active"><a href="about">О нас</a></li>
                             <li><a href="services">Услуги</a></li>
                             <li><a href="contact">Контакты</a></li>
