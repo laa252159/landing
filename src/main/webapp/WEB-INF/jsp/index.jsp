@@ -381,83 +381,83 @@
 <!--== Fun Fact Area End ==-->
 
 <!--== Pricing Area Start ==-->
-<section id="pricing-area" class="section-padding overlay">
-    <div class="container">
-        <div class="row">
-            <!-- Section Title Start -->
-            <div class="col-lg-12">
-                <div class="section-title  text-center">
-                    <h2>Пакеты услуг и их стоимость</h2>
-                    <span class="title-line"><i class="fa fa-car"></i></span>
-                    <p>Для наших клиентов сотрудничество возможно как на бесплатной так и на платной основе. Выбирете
-                        пакет, который подходит именно Вам.</p>
-                </div>
-            </div>
-            <!-- Section Title End -->
-        </div>
+<%--<section id="pricing-area" class="section-padding overlay">--%>
+    <%--<div class="container">--%>
+        <%--<div class="row">--%>
+            <%--<!-- Section Title Start -->--%>
+            <%--<div class="col-lg-12">--%>
+                <%--<div class="section-title  text-center">--%>
+                    <%--<h2>Пакеты услуг и их стоимость</h2>--%>
+                    <%--<span class="title-line"><i class="fa fa-car"></i></span>--%>
+                    <%--<p>Для наших клиентов сотрудничество возможно как на бесплатной так и на платной основе. Выбирете--%>
+                        <%--пакет, который подходит именно Вам.</p>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+            <%--<!-- Section Title End -->--%>
+        <%--</div>--%>
 
         <!-- Pricing Table Conatent Start -->
-        <div class="row">
-            <!-- Single Pricing Table -->
-            <div class="col-lg-4 col-md-6 text-center">
-                <div class="single-pricing-table">
-                    <h3>Пакет Бизнес класс</h3>
-                    <h2>3000 рублей</h2>
-                    <h5>за продажу 1 автомобиля</h5>
+        <%--<div class="row">--%>
+            <%--<!-- Single Pricing Table -->--%>
+            <%--<div class="col-lg-4 col-md-6 text-center">--%>
+                <%--<div class="single-pricing-table">--%>
+                    <%--<h3>Пакет Бизнес класс</h3>--%>
+                    <%--<h2>3000 рублей</h2>--%>
+                    <%--<h5>за продажу 1 автомобиля</h5>--%>
 
-                    <ul class="package-list">
-                        <li>Выезд нашего оценщика на место для осмотра автомобиля</li>
-                        <li>Размещение автомобиля на аукционе</li>
-                        <li>Срок аукциона - 7 суток</li>
-                        <li>Стартовая цена определяется Вами</li>
-                        <li>Запрет размещения объявления на сайтах avito.ru и др. сайтах</li>
-                        <li>Радиус выезда до 350 км от центра Саратова</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Single Pricing Table -->
+                    <%--<ul class="package-list">--%>
+                        <%--<li>Выезд нашего оценщика на место для осмотра автомобиля</li>--%>
+                        <%--<li>Размещение автомобиля на аукционе</li>--%>
+                        <%--<li>Срок аукциона - 7 суток</li>--%>
+                        <%--<li>Стартовая цена определяется Вами</li>--%>
+                        <%--<li>Запрет размещения объявления на сайтах avito.ru и др. сайтах</li>--%>
+                        <%--<li>Радиус выезда до 350 км от центра Саратова</li>--%>
+                    <%--</ul>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+            <%--<!-- Single Pricing Table -->--%>
 
-            <!-- Single Pricing Table -->
-            <div class="col-lg-4 col-md-6 text-center">
-                <div class="single-pricing-table">
-                    <h3>Пакет БЕСПЛАТНЫЙ</h3>
-                    <h2>0 рублей</h2>
-                    <h5>за продажу 1 автомобиля</h5>
+            <%--<!-- Single Pricing Table -->--%>
+            <%--<div class="col-lg-4 col-md-6 text-center">--%>
+                <%--<div class="single-pricing-table">--%>
+                    <%--<h3>Пакет БЕСПЛАТНЫЙ</h3>--%>
+                    <%--<h2>0 рублей</h2>--%>
+                    <%--<h5>за продажу 1 автомобиля</h5>--%>
 
-                    <ul class="package-list">
-                        <li>Выезд нашего оценщика на место для осмотра автомобиля</li>
-                        <li>Размещение автомобиля на аукционе</li>
-                        <li>Срок аукциона - 2 суток</li>
-                        <li>Стартовая цена определяется нашим оценщиком</li>
-                        <li>Запрет размещения объявления на сайтах avito.ru и др. сайтах</li>
-                        <li>Радиус выезда до 100 км от центра Саратова</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Single Pricing Table -->
+                    <%--<ul class="package-list">--%>
+                        <%--<li>Выезд нашего оценщика на место для осмотра автомобиля</li>--%>
+                        <%--<li>Размещение автомобиля на аукционе</li>--%>
+                        <%--<li>Срок аукциона - 2 суток</li>--%>
+                        <%--<li>Стартовая цена определяется нашим оценщиком</li>--%>
+                        <%--<li>Запрет размещения объявления на сайтах avito.ru и др. сайтах</li>--%>
+                        <%--<li>Радиус выезда до 100 км от центра Саратова</li>--%>
+                    <%--</ul>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+            <%--<!-- Single Pricing Table -->--%>
 
-            <!-- Single Pricing Table -->
-            <div class="col-lg-4 col-md-6 text-center">
-                <div class="single-pricing-table">
-                    <h3>Пакет стандарт</h3>
-                    <h2>1500 рублей</h2>
-                    <h5>за продажу 1 автомобиля</h5>
+            <%--<!-- Single Pricing Table -->--%>
+            <%--<div class="col-lg-4 col-md-6 text-center">--%>
+                <%--<div class="single-pricing-table">--%>
+                    <%--<h3>Пакет стандарт</h3>--%>
+                    <%--<h2>1500 рублей</h2>--%>
+                    <%--<h5>за продажу 1 автомобиля</h5>--%>
 
-                    <ul class="package-list">
-                        <li>Выезд нашего оценщика на место для осмотра автомобиля</li>
-                        <li>Размещение автомобиля на аукционе</li>
-                        <li>Срок аукциона - 4 суток</li>
-                        <li>Стартовая цена определяется нашим оценщиком</li>
-                        <li>Запрет размещения объявления на сайтах avito.ru и др. сайтах</li>
-                        <li>Радиус выезда до 200 км от центра Саратова</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Single Pricing Table -->
-        </div>
+                    <%--<ul class="package-list">--%>
+                        <%--<li>Выезд нашего оценщика на место для осмотра автомобиля</li>--%>
+                        <%--<li>Размещение автомобиля на аукционе</li>--%>
+                        <%--<li>Срок аукциона - 4 суток</li>--%>
+                        <%--<li>Стартовая цена определяется нашим оценщиком</li>--%>
+                        <%--<li>Запрет размещения объявления на сайтах avito.ru и др. сайтах</li>--%>
+                        <%--<li>Радиус выезда до 200 км от центра Саратова</li>--%>
+                    <%--</ul>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+            <%--<!-- Single Pricing Table -->--%>
+        <%--</div>--%>
         <!-- Pricing Table Conatent End -->
-    </div>
-</section>
+    <%--</div>--%>
+<%--</section>--%>
 <!--== Pricing Area End ==-->
 <%--<!--== Mobile App Area Start ==-->--%>
 <%--<div id="mobileapp-video-bg"></div>--%>
