@@ -166,7 +166,7 @@
                         <div class="book-a-car">
                             <form:form method="post" action="save" name="suggestion">
                                 <div class="pick-up-date book-item">
-                                    <h2>ЗАЯВКА НА УЧАСТИЕ</h2>
+                                    <h3>ЗАЯВКА НА УЧАСТИЕ</h3>
                                     <h4>Марка и модель:</h4>
                                     <form:input path="brandAndModel" name="brandAndModel" type="text"
                                                 data-message="A larger value is needed"/>
