@@ -184,7 +184,7 @@
                                 </div>
 
                                 <div class="book-button text-center">
-                                    <input type="submit" class="book-now-btn" value="Заказать звонок"/>
+                                    <input type="submit" class="book-now-btn" value="ПОДАТЬ ЗАЯВКУ"/>
                                 </div>
                             </form:form>
                         </div>
