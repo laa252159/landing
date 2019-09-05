@@ -109,7 +109,7 @@
 
                 <!--== Single HeaderTop Start ==-->
                 <div class="col-lg-3 text-center">
-                    <i class="fa fa-clock-o"></i> Пн-Вс 09.00 - 20.00
+                    <i class="fa fa-clock-o"></i> Время работы: 09.00 - 20.00
                 </div>
                 <!--== Single HeaderTop End ==-->
             </div>
@@ -188,7 +188,7 @@
                 <div class="display-table">
                     <div class="display-table-cell">
                         <div class="about-content">
-                            <p>По марке и модели автомобиля, а также по году выпуска и пробегу никаких ограничений нет. Пробег должен быть нескрученный, с документами должно быть в полном порядке.</p>
+                            <p>По марке и модели автомобиля, а также по году выпуска и пробегу никаких ограничений нет.</p>
                         </div>
                     </div>
                 </div>
@@ -223,10 +223,10 @@
                 <div class="single-our-facility">
                     <h3>Наши преимущества</h3>
                     <ul>
-                        <li>Продажа автомобиля по максимально возможной цене, за счёт конкуренции между дилерами</li>
-                        <li>Время на проведение аукциона от 2 до 7 дней</li>
-                        <li>Работаем на бесплатной и платной основе</li>
-                        <li>Выезд на осмотр до 350 км</li>
+                        <li>Продажа автомобиля по максимально возможной цене</li>
+                        <li>Время на проведение аукциона от 2 до 30 дней</li>
+                        <li>Работаем на бесплатной основе</li>
+                        <li>Выезд на осмотр до 50 км</li>
                         <li>Возможность устанавливать самим стартовую цену аукциона</li>
                     </ul>
                 </div>
@@ -246,10 +246,10 @@
                     <div class="single-footer-widget">
                         <h2>Контакты</h2>
                         <div class="widget-body">
-                            <p>Мы находимся в центре Саратова, наш оценщик может выехать в любую точку Саратова и области, также мы доступны в Viber, What's App, Telegram. Ещё Вы можете оставить свой контактый телефон в заявке на оценку или просто позвонить нам</p>
+                            <p>Мы находимся в Саратове, наш оценщик может выехать в любую точку Саратова и Энгельса, также мы доступны в Viber, What's App, Telegram. Ещё Вы можете оставить свой контактый телефон в заявке на участие в аукционе или просто позвонить нам</p>
 
                             <ul class="get-touch">
-                                <li><i class="fa fa-map-marker"></i> 410000, Саратов, ул. Шелковичная д. 11/15</li>
+                                <li><i class="fa fa-map-marker"></i> Саратовский филиал</li>
                                 <li><i class="fa fa-mobile"></i> +7 967 80 44 111 </li>
                                 <li><i class="fa fa-envelope"></i> mail@cars64.ru</li>
                             </ul>
@@ -269,7 +269,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> Cars64.ru — сайт выкупа автомобилей в Саратове.</p>
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> Cars64.ru — Автомобильный аукцион в Саратове</p>
                 </div>
             </div>
         </div>
