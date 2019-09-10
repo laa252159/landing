@@ -102,6 +102,12 @@
                 <!--== Single HeaderTop End ==-->
 
                 <!--== Single HeaderTop Start ==-->
+                <div class="col-lg-3 text-left">
+                    <i class="fa fa-instagram"></i> <a href="https://www.instagram.com/cars64.ru/" > @cars64.ru</a>
+                </div>
+                <!--== Single HeaderTop End ==-->
+
+                <!--== Single HeaderTop Start ==-->
                 <div class="col-lg-3 text-center">
                     <i class="fa fa-mobile"></i> +7967 80 44 111
                 </div>
