@@ -189,24 +189,7 @@
         </div>
 
         <div class="row">
-            <!-- About Content Start -->
-            <div class="col-lg-6">
-                <div class="display-table">
-                    <div class="display-table-cell">
-                        <div class="about-content">
-                            <p><h3>Наши преимущества</h3>
-                            <ul>
-                                <li>Продажа автомобиля по максимально возможной цене</li>
-                                <li>Время на проведение аукциона от 2 до 30 дней</li>
-                                <li>Работаем на бесплатной основе</li>
-                                <li>Выезд на осмотр до 50 км</li>
-                                <li>Возможность устанавливать самим стартовую цену аукциона</li>
-                            </ul></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- About Content End -->
+
 
             <!-- About Video Start -->
             <div class="col-lg-6">
