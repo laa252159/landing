@@ -173,7 +173,7 @@
                             <form:form method="post" action="save" name="suggestion">
                                 <div class="pick-up-date book-item">
                                     <h2>Заполни заявку</h2>
-                                    <h4>Марка и модель:</h4>
+                                    <h5>Марка и модель:</h5>
                                     <form:input path="brandAndModel" name="brandAndModel" type="text"
                                                 data-message="A larger value is needed"/>
                                 </div>
