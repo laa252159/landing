@@ -101,6 +101,12 @@
                 <!--== Single HeaderTop End ==-->
 
                 <!--== Single HeaderTop Start ==-->
+                <div class="col-lg-3 text-left">
+                    <i class="fa fa-instagram"></i> <a href="https://www.instagram.com/cars64.ru/" > @cars64.ru</a>
+                </div>
+                <!--== Single HeaderTop End ==-->
+
+                <!--== Single HeaderTop Start ==-->
                 <div class="col-lg-3 text-center">
                     <i class="fa fa-mobile"></i> +7 967 80 44 111
                 </div>
@@ -217,7 +223,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> Cars64.ru — сайт выкупа автомобилей в Саратове.</p>
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> Cars64.ru — Автомобильный аукцион в Саратове</p>
                 </div>
             </div>
         </div>
