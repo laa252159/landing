@@ -21,7 +21,7 @@
     <!--=== Favicon ===-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <title>Контакты - Выкуп и продажа авто в Саратове, автомобильный аукцион Саратов</title>
+    <title>Контакты - Cars64.ru</title>
     <meta name="description" content="Мы находимся по адресу: город Саратов ул. Шелковичная д. 11/15, контактный телефон +7 967 80 44 111 эл почта: mail@cars64.ru" >
     <link rel="canonical" href="http://cars64.ru/contact">
 
@@ -96,7 +96,7 @@
             <div class="row">
                 <!--== Single HeaderTop Start ==-->
                 <div class="col-lg-3 text-left">
-                    <i class="fa fa-map-marker"></i> 410000, Саратов, ул. Шелковичная д. 11/15
+                    <i class="fa fa-map-marker"></i> Саратовский филиал
                 </div>
                 <!--== Single HeaderTop End ==-->
 
@@ -108,7 +108,7 @@
 
                 <!--== Single HeaderTop Start ==-->
                 <div class="col-lg-3 text-center">
-                    <i class="fa fa-clock-o"></i> Пн-Вс 07.00 - 21.00
+                    <i class="fa fa-clock-o"></i> Время работы 09.00 - 20.00
                 </div>
                 <!--== Single HeaderTop End ==-->
             </div>
@@ -157,7 +157,7 @@
                 <div class="section-title  text-center">
                     <h2>Контакты</h2>
                     <span class="title-line"><i class="fa fa-car"></i></span>
-                    <p>Мы находимся в центре Саратова, наш оценщик может выехать в любую точку Саратова и области.</p>
+                    <p>Мы находимся в Саратове, наш оценщик может выехать в любую точку Саратова и области.</p>
                     <p>Также мы доступны в Viber, What's App, Telegram.</p>
                     <p>Ещё Вы можете оставить свой контактый телефон на главной странице в заявке на оценку автомобиля или просто позвонить нам.</p>
                 </div>
@@ -193,13 +193,13 @@
                     <div class="single-footer-widget">
                         <h2>Контакты</h2>
                         <div class="widget-body">
-                            <p>Мы находимся в центре Саратова, наш оценщик может выехать в любую точку Саратова и области.</p>
+                            <p>Мы находимся в Саратове, наш оценщик может выехать в любую точку Саратова и области.</p>
                             <p>Также мы доступны в Viber, What's App, Telegram.
                             <p>Ещё Вы можете оставить свой контактый телефон на главной странице в заявке на оценку автомобиля или просто позвонить нам</p>
                             <ul class="get-touch">
                                 <li><i class="fa fa-map-marker"></i> 410000, Саратов, ул. Шелковичная д. 11/15</li>
                                 <li><i class="fa fa-mobile"></i> +7 967 80 44 111 </li>
-                                <li><i class="fa fa-envelope"></i> mail@cars64.ru</li>
+                                <li><i class="fa fa-instagram"></i> @cars64.ru</li>
                             </ul>
                             <a href="https://goo.gl/maps/2z3t6S2vY1B2" class="map-show" target="_blank">Показать местоположение</a>
                         </div>
