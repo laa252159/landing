@@ -173,7 +173,7 @@
                             <form:form method="post" action="save" name="suggestion">
                                 <div class="pick-up-date book-item">
                                     <h2>Заполни заявку</h2>
-                                    <h5>Марка и модель:</h5>
+                                    <h4>Марка и модель:</h4>
                                     <form:input path="brandAndModel" name="brandAndModel" type="text"
                                                 data-message="A larger value is needed"/>
                                 </div>
@@ -191,7 +191,7 @@
                                 </div>
 
                                 <div class="book-button text-center">
-                                    <input type="submit" class="book-now-btn" value="ПРОДАТЬ АВТОМОБИЛЬ"/>
+                                    <input type="submit" class="book-now-btn" value="ОЦЕНИТЬ АВТО"/>
                                 </div>
                             </form:form>
                         </div>
