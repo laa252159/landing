@@ -173,6 +173,7 @@
                             <form:form method="post" action="save" name="suggestion">
                                 <div class="pick-up-date book-item">
                                     <h2>Заполни заявку</h2>
+                                    <br>
                                     <h4>Марка и модель:</h4>
                                     <form:input path="brandAndModel" name="brandAndModel" type="text"
                                                 data-message="A larger value is needed"/>
@@ -215,7 +216,7 @@
                     <div class="display-table">
                         <div class="display-table-cell">
                             <div class="slider-right-text">
-                                <h2>Продажа и покупка автомобиля через аукцион в Саратове</h2>
+                                <h1>Продажа и покупка автомобиля через аукцион в Саратове</h1>
                                 <p>Cars64.ru - это бесплатный сервис, через который можно легко продать и купить автомобиль
                                     в Саратове и области посредством электронного аукциона. В данном аукционе участвуют
                                     обычные покупатели, а также частные дилеры, которые выкупают автомобиль для дальнейшей перепродажи.
