@@ -172,7 +172,7 @@
                         <div class="book-a-car">
                             <form:form method="post" action="save" name="suggestion">
                                 <div class="pick-up-date book-item">
-                                    <h3>ЗАЯВКА НА УЧАСТИЕ</h3>
+                                    <h2>Заполни заявку</h2>
                                     <h4>Марка и модель:</h4>
                                     <form:input path="brandAndModel" name="brandAndModel" type="text"
                                                 data-message="A larger value is needed"/>
@@ -191,7 +191,7 @@
                                 </div>
 
                                 <div class="book-button text-center">
-                                    <input type="submit" class="book-now-btn" value="ПОДАТЬ ЗАЯВКУ"/>
+                                    <input type="submit" class="book-now-btn" value="ПРОДАТЬ АВТОМОБИЛЬ"/>
                                 </div>
                             </form:form>
                         </div>
