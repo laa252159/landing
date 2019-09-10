@@ -336,8 +336,8 @@
                                     <i class="fa fa-smile-o"></i>
                                 </div>
                                 <div class="funfact-content">
-                                    <p><span class="counter">250</span>+</p>
-                                    <h4>Счастливые клиенты</h4>
+                                    <p><span class="counter">20</span>+</p>
+                                    <h4>Счастливых клиентов</h4>
                                 </div>
                             </div>
                         </div>
@@ -350,8 +350,8 @@
                                     <i class="fa fa-car"></i>
                                 </div>
                                 <div class="funfact-content">
-                                    <p><span class="counter">250</span>+</p>
-                                    <h4>Машин выкуплено</h4>
+                                    <p><span class="counter">45</span>+</p>
+                                    <h4>Проведено аукционов</h4>
                                 </div>
                             </div>
                         </div>
@@ -364,8 +364,8 @@
                                     <i class="fa fa-bank"></i>
                                 </div>
                                 <div class="funfact-content">
-                                    <p><span class="counter">1</span>+</p>
-                                    <h4>Количество офисов в г. Саратов</h4>
+                                    <p><span class="counter">2</span>+</p>
+                                    <h4>Количество оценщиков в Саратове</h4>
                                 </div>
                             </div>
                         </div>
