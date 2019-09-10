@@ -21,7 +21,7 @@
     <!--=== Favicon ===-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <title>Контактная информация - Автомобильный аукцион Саратов</title>
+    <title>Контактная информация - Cars64.ru</title>
     <meta name="description" content="Мы находимся в Саратове, контактный телефон +7 967 80 44 111, адрес эл. почты mail@cars64.ru">
     <link rel="canonical" href="http://cars64.ru/about">
 
