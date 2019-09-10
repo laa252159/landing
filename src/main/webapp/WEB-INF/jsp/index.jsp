@@ -491,7 +491,7 @@
                                 контактый телефон в заявке на оценку или просто позвонить нам</p>
 
                             <ul class="get-touch">
-                                <li><i class="fa fa-map-marker"></i> 410000, Саратов, ул. Шелковичная д. 11/15</li>
+                                <li><i class="fa fa-map-marker"></i> Саратовский филиал</li>
                                 <li><i class="fa fa-mobile"></i> +7 967 80 44 111</li>
                                 <li><i class="fa fa-instagram"></i> <a href="https://www.instagram.com/cars64.ru/" > @cars64.ru</a></li>                            </ul>
                             <a href="https://goo.gl/maps/2z3t6S2vY1B2" class="map-show" target="_blank">Показать
